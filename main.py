@@ -1,0 +1,1 @@
+// chamar o script para renderizar a tela e o script de integração

@@ -3,7 +3,7 @@ from tkinter import *
 from tracemalloc import stop
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
-from main import Main
+# from main import Main
 
 class Tela:
     
@@ -30,14 +30,14 @@ class Tela:
         self.BotaoStart.configure(pady='0')
         self.BotaoStart.configure(text=''' START ''')
         self.BotaoStart.configure(font=("Times New Roman", 10, "bold"))
-        self.BotaoStart.configure(command= Main.setStart())
+        # self.BotaoStart.configure(command= Main.setStart())
 
         self.BotaoStop = Button(self.containerMaster)
         self.BotaoStop.place(relx=0.09, rely=0.10, height=40, width=100)
         self.BotaoStop.configure(pady='0')
         self.BotaoStop.configure(text=''' STOP and Save ''')
         self.BotaoStop.configure(font=("Times New Roman", 10, "bold"))
-        self.BotaoStop.configure(command= Main.setStart(self.setEstate()))
+        # self.BotaoStop.configure(command= Main.setStart(self.setEstate()))
 
         self.BotaoSimEnable = Button(self.containerMaster)
         self.BotaoSimEnable.place(relx=0.025, rely=0.20, height=30, width=150)

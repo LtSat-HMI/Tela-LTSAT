@@ -173,6 +173,6 @@ class Tela:
         # figura.tight_layout()
         # self.canva = FigureCanvasTkAgg(figura, self.ContainerPlot)
         # self.canva.get_tk_widget().grid(row=0, column=0)
-        self.containerMaster.mainloop()
+        # self.containerMaster.mainloop()
     def setEstate(self):
         return True
